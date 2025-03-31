@@ -27,24 +27,6 @@ html, body {
     color: #ffffff !important;
 }
 
-.resume-section {
-    padding: 3rem 1.5rem;
-    background: linear-gradient(135deg, #1a1a1a, #121212);
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
-}
-.resume-section-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.resume-section-content ul {
-    list-style-type: disc;
-    margin-left: 2rem;
-}.resume-section {
-
-
 p, li, h1, h2, h3, h4, h5, h6, span, a {
     color: #ffffff;
 }
@@ -150,7 +132,6 @@ a:hover, .btn-link:hover {
 .loading-text:after {
     content: var(--blazor-load-percentage-text, "Betöltés...");
 }
-
 
 @keyframes pulse-green {
     0% { box-shadow: 0 0 5px #26b050; }
